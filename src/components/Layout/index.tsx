@@ -1,5 +1,5 @@
 import { Input } from '../Input';
-import { Header, Wrapper } from './index.styles';
+import { Header, Wrapper, Line } from './index.styles';
 
 interface ILayout {}
 export function Layout({}: ILayout) {
@@ -7,6 +7,7 @@ export function Layout({}: ILayout) {
     <Wrapper>
       <Header>To Do App</Header>
       <Input />
+      <Line />
     </Wrapper>
   );
 }
