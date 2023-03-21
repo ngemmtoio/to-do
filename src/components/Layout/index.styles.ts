@@ -15,3 +15,9 @@ export let Header = styled.div`
   line-height: 1.1;
   color: #112d4e;
 `;
+
+export let Line = styled.div`
+  width: 100%;
+  height: 1px;
+  background-color: #000000;
+`;
