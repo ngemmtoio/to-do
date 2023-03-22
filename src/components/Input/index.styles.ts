@@ -2,6 +2,7 @@ import styled from '@emotion/styled';
 
 export let Wrapper = styled.div`
   display: flex;
+  justify-content: center;
 `;
 
 export let StyledInput = styled.input`
